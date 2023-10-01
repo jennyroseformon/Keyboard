@@ -1,0 +1,128 @@
+html, body{
+	font size: 80%;
+	font-family: Times New Roman, Georgia, Garamond;
+	letter-spacing: 0.15em;
+	min-height: 100vh;
+	overflow: scroll;
+	background-color: #83c5be;
+	flex display: flex;
+	flex-direction: column;
+}
+
+#page {
+	max-width: 95%;
+	min-width: 95%;
+	height: 100vh;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+	border: 4px double #000000;
+	max-height: 900px;
+	min-height: 900px;
+}
+
+header {
+	text-align: center;
+}
+
+.logo-img {
+	width: 350px;
+	height: 200px;
+}
+
+ul {
+	width: 570px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	margin: 0px 3px;
+}
+
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px 18px 5px 18px;
+
+}
+
+a:hover, #on{
+	background-color: #caffbf;
+}
+
+.tagline {
+	font-size: 90px;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	padding-left: 30px;
+  	background: -webkit-linear-gradient(#03071e, #370617);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	padding: 50px;
+}
+
+.line {
+	text-align: left;
+	font-size: 20px;
+}
+
+.next-page{
+	border: 4px solid black;
+	border-style: inset;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	background-color:  #83c5be;
+}
+
+footer {
+	margin-top: 100px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+.keyboard-img {
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+}
+
+.shop-img {
+	float: right;	
+	border: 3px outset gray;
+	background-color: darkgray;
+
+}
+
+.text {
+	font-size: 20px;
+	padding-left: 20px;
+	float: right;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50PX;
+}
+
+.navs {
+	border: 4px solid black;
+	border-style: inset;
+	width: 150px;
+	height: 20px;
+	background-color:  #83c5be;
+	padding-top: 10px;
+}
+
+#contacts {
+	text-align: justify;
+}
