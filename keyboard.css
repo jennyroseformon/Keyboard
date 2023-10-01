@@ -10,6 +10,7 @@ html, body{
 	background-color: #83c5be;
 	flex-display: flex;
 	flex-direction: column;
+	align-items: stretch;
 }
 
 #page {
@@ -64,7 +65,7 @@ a:hover, #on{
 	font-weight: bold;
 	color: #000000;
 	padding-left: 30px;
-  	background: -webkit-linear-gradient(#03071e, #6a040f);
+  	background: -webkit-linear-gradient(#03071e, #9d0208);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
   	padding: 50px;
