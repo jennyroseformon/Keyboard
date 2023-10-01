@@ -1,11 +1,14 @@
 html, body{
-	font size: 80%;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 80%;
 	font-family: Times New Roman, Georgia, Garamond;
 	letter-spacing: 0.15em;
 	min-height: 100vh;
 	overflow: scroll;
 	background-color: #83c5be;
-	flex display: flex;
+	flex-display: flex;
 	flex-direction: column;
 }
 
@@ -61,7 +64,7 @@ a:hover, #on{
 	font-weight: bold;
 	color: #000000;
 	padding-left: 30px;
-  	background: -webkit-linear-gradient(#03071e, #370617);
+  	background: -webkit-linear-gradient(#03071e, #6a040f);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
   	padding: 50px;
